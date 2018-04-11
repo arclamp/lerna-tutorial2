@@ -9,7 +9,12 @@ function nonrandom (x, y) {
   return 0.5 * bar(x, y);
 }
 
+function zero () {
+  return 0;
+}
+
 module.exports = {
   random: random,
-  nonrandom: nonrandom
+  nonrandom: nonrandom,
+  zero: zero
 };
