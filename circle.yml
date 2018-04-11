@@ -5,6 +5,8 @@ machine:
 dependencies:
   pre:
     - sudo apt-get update
+    - git config --global user.email $USER_EMAIL
+    - git config --global user.name $USER_NAME
 
 compile:
   override:
