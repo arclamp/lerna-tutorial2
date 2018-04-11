@@ -9,7 +9,6 @@ dependencies:
 compile:
   override:
     - npm run lerna:init
-    - npm run lerna:bootstrap
 
 deployment:
   lerna-semantic-release:
