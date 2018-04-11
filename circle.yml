@@ -4,9 +4,16 @@ machine:
 
 dependencies:
   pre:
+    # Update packages.
     - sudo apt-get update
+
+    # Set up GitHub identity.
     - git config --global user.email $USER_EMAIL
     - git config --global user.name $USER_NAME
+
+
+    # Inject NPM token into environment.
+    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >>~/.npmrc
 
 compile:
   override:
@@ -16,4 +23,4 @@ deployment:
   lerna-semantic-release:
     branch: master
     commands:
-      - NPM_TOKEN=$NPM_TOKEN npm run lerna:publish
+      - npm run lerna:publish
