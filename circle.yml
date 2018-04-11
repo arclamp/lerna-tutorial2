@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 9.5.0
+
+dependencies:
+  pre:
+    - sudo apt-get update
+
+compile:
+  override:
+    - npm run lerna:init
+
+deployment:
+  lerna-semantic-release:
+    branch: master
+    commands:
+      - npm run lerna:publish
