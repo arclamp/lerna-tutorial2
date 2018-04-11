@@ -1,5 +1,5 @@
-var foo = require('foo');
-var bar = require('bar');
+var foo = require('@arclamp/foo');
+var bar = require('@arclamp/bar');
 
 module.exports = function (x, y) {
   return foo() * bar(x, y);
