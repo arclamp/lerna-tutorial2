@@ -1,0 +1,23 @@
+{
+  "name": "@arclamp/lerna-tutorial2",
+  "version": "0.1.0",
+  "description": "Another lerna tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arclamp/lerna-tutorial2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arclamp/lerna-tutorial2/issues"
+  },
+  "homepage": "https://github.com/arclamp/lerna-tutorial2#readme",
+  "devDependencies": {
+    "lerna": "^2.10.1"
+  }
+}
