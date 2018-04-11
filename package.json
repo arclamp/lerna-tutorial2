@@ -4,7 +4,7 @@
   "description": "Another lerna tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: no test specified\" && exit 0",
     "lerna:init": "lerna init && lerna bootstrap",
     "lerna:publish": "lerna publish --conventional-commits --yes"
   },
