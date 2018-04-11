@@ -15,3 +15,8 @@ deployment:
     branch: master
     commands:
       - npm run lerna:publish
+
+  foobar:
+    branch: circle
+    commands:
+      - echo hello world
