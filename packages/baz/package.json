@@ -1,6 +1,6 @@
 {
   "name": "@arclamp/baz",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@arclamp/bar": "^0.4.0",
+    "@arclamp/bar": "^0.5.0",
     "@arclamp/foo": "^0.1.0"
   },
   "publishConfig": {
