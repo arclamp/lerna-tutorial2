@@ -14,4 +14,4 @@ deployment:
   lerna-semantic-release:
     branch: master
     commands:
-      - npm run lerna:publish
+      - NPM_TOKEN=$NPM_TOKEN npm run lerna:publish
