@@ -14,9 +14,14 @@ function divide (x, y) {
   return x / y;
 }
 
+function greater (x, y) {
+  return x > y;
+}
+
 module.exports = {
   add: add,
   subtract: subtract,
   multiply: multiply,
-  divide: divide
+  divide: divide,
+  greater: greater
 };
